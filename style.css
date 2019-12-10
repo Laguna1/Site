@@ -64,10 +64,32 @@ nav {
     padding: 10px 30px;
     
 }
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
 
 .already-sign {
     flex-direction: column;
     display: flex;
+    font-size: xx-small;
+    margin-top: 8px;
+}
+.sign-now {
+    padding-top: 8px;
+    padding-left: 12px;
+    margin-right: -44px;
+ }
+.sign_in,
+.submit {
+    border: 1px solid #ccc;
+    color: white;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 1em;
+    margin-top: -1px;
+    border-radius: 4px;
+    background-color: blue;
 }
 
 div.logo {
@@ -81,7 +103,26 @@ div.logo {
     justify-content: center;
     display: flex;
 }
+.main-title {
+    color: #4c4c4c;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
 
+ul {
+    flex-direction: row;
+    display: flex;
+    padding: 25px 5px 20px 5px;
+}
+ .top_icons {
+    margin: 0px 5px 0px 5px;
+ }
+ .footer-row1 {
+    margin: 0px -3px 0px 5px;
+    padding: 0px 0px 0px 5px;
+ }
 section {
     height: 85%;
     display: flex;
@@ -144,4 +185,9 @@ textarea {
 .footer-row {
     justify-content: center;
     display: flex;
+}
+a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
 }
