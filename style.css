@@ -55,8 +55,8 @@ body {
 .header-wrapper {
     margin-top: 20px;
     padding: 10px 30px;
-
-    background-color: greenyellow;
+    background: #eceef1;
+   /* background-color: greenyellow; */
 }
 
 nav {
@@ -133,11 +133,14 @@ section {
 
 .main-section {
    /* display: flex; */
+    line-height: 1.5;
+    text-align: left;
     justify-content: center;
     border: px solid green;
     background-color: rgb(222, 232, 235);
     color: #505050;
     margin: 20px 280px 20px 280px;
+    height: 80%;
   /*  margin-bottom: 8em; */
 }
 
@@ -187,6 +190,7 @@ textarea {
     display: flex;
 }
 a {
+    color: #0077c5;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     cursor: pointer;
