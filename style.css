@@ -180,7 +180,7 @@ nav {
     font-size: 1em;
     margin-top: -1px;
     border-radius: 4px;
-    background-color: blue;
+    /*background-color: blue;*/
 }
 
 div.logo {
@@ -204,11 +204,12 @@ div.logo {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
 }
+
 div.learn-more {
-display: flex;
-flex-direction: column;
-justify-content: center;
-font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
 }
 
 ul {
@@ -220,16 +221,19 @@ ul {
 .top_icons {
     margin: 0px -5px 0px 5px;
 }
+
 .text {
     color: #4c4c4c;
     font-size: 17px;
 }
+
 .footer-row1 {
     margin: 0px -3px 0px 5px;
     padding: 0px 0px 0px 5px;
     text-decoration: none;
-    
+
 }
+
 li.footer-row1 {
     color: #4c4c4c;
 }
@@ -273,7 +277,7 @@ body {
     width: 50%;
     margin: 0 auto;
     text-align: center;
-    background-color: aquamarine;
+    background-color: white;
     /*  height: 20em; */
 }
 
@@ -312,6 +316,7 @@ a {
     text-decoration: none;
     font-size: xx-small;
 }
+
 a.forgot {
     text-decoration: none;
 }
@@ -324,4 +329,3 @@ form span {
     color: black;
     font-size: 10px;
 }
-
