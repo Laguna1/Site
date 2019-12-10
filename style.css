@@ -194,6 +194,7 @@ div.logo {
 .top-service {
     justify-content: center;
     display: flex;
+    margin-top: 11px;
 }
 
 .main-title {
@@ -203,6 +204,12 @@ div.logo {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
 }
+div.learn-more {
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-size: 15px;
+}
 
 ul {
     flex-direction: row;
@@ -211,12 +218,20 @@ ul {
 }
 
 .top_icons {
-    margin: 0px 5px 0px 5px;
+    margin: 0px -5px 0px 5px;
 }
-
+.text {
+    color: #4c4c4c;
+    font-size: 17px;
+}
 .footer-row1 {
     margin: 0px -3px 0px 5px;
     padding: 0px 0px 0px 5px;
+    text-decoration: none;
+    
+}
+li.footer-row1 {
+    color: #4c4c4c;
 }
 
 section {
@@ -286,13 +301,19 @@ textarea {
 .footer-row {
     justify-content: center;
     display: flex;
+    color: #4c4c4c;
 }
 
 a {
-    color: #0077c5;
+    color: navy;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     cursor: pointer;
+    text-decoration: none;
+    font-size: xx-small;
+}
+a.forgot {
+    text-decoration: none;
 }
 
 form label {
@@ -304,6 +325,3 @@ form span {
     font-size: 10px;
 }
 
-a {
-    color: navy;
-}
