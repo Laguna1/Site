@@ -3,67 +3,156 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
 /* end reset style */
 body {
     height: 100%;
-  /*  color: yellow;  */
+    /*  color: yellow;  */
 }
 
 .header-wrapper {
     margin-top: 20px;
     padding: 10px 30px;
     background: #eceef1;
-   /* background-color: greenyellow; */
+    /* background-color: greenyellow; */
 }
 
 nav {
     float: none;
     padding: 10px 30px;
-    
+
 }
+
 .navbar {
     display: flex;
     justify-content: flex-end;
@@ -75,11 +164,13 @@ nav {
     font-size: xx-small;
     margin-top: 8px;
 }
+
 .sign-now {
     padding-top: 8px;
     padding-left: 12px;
     margin-right: -44px;
- }
+}
+
 .sign_in,
 .submit {
     border: 1px solid #ccc;
@@ -97,12 +188,14 @@ div.logo {
     justify-content: center;
     align-items: center;
     display: flex;
-  /*  background-color: aqua;  */
+    /*  background-color: aqua;  */
 }
+
 .top-service {
     justify-content: center;
     display: flex;
 }
+
 .main-title {
     color: #4c4c4c;
     font-weight: 400;
@@ -116,13 +209,16 @@ ul {
     display: flex;
     padding: 25px 5px 20px 5px;
 }
- .top_icons {
+
+.top_icons {
     margin: 0px 5px 0px 5px;
- }
- .footer-row1 {
+}
+
+.footer-row1 {
     margin: 0px -3px 0px 5px;
     padding: 0px 0px 0px 5px;
- }
+}
+
 section {
     height: 85%;
     display: flex;
@@ -132,7 +228,7 @@ section {
 }
 
 .main-section {
-   /* display: flex; */
+    /* display: flex; */
     line-height: 1.5;
     text-align: left;
     justify-content: center;
@@ -141,7 +237,7 @@ section {
     color: #505050;
     margin: 20px 280px 20px 280px;
     height: 80%;
-  /*  margin-bottom: 8em; */
+    /*  margin-bottom: 8em; */
 }
 
 footer {
@@ -151,6 +247,7 @@ footer {
     background-color: rgb(24, 218, 18);
     color: #505050;
 }
+
 /*
 body {
     background: black; 
@@ -162,11 +259,11 @@ body {
     margin: 0 auto;
     text-align: center;
     background-color: aquamarine;
-  /*  height: 20em; */
+    /*  height: 20em; */
 }
 
 .form {
-  /*  margin-top: 4em;   */
+    /*  margin-top: 4em;   */
     display: flex;
     flex-direction: column;
 }
@@ -185,13 +282,28 @@ textarea {
     margin-bottom: 1em;
 
 }
+
 .footer-row {
     justify-content: center;
     display: flex;
 }
+
 a {
     color: #0077c5;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     cursor: pointer;
+}
+
+form label {
+    color: gray;
+}
+
+form span {
+    color: black;
+    font-size: 10px;
+}
+
+a {
+    color: navy;
 }
