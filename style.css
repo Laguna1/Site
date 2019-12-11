@@ -142,7 +142,7 @@ body {
 
 .header-wrapper {
     margin-top: 20px;
-    padding: 10px 30px;
+    padding: 10px 30px 0px 30px;
     background: #eceef1;
     /* background-color: greenyellow; */
 }
@@ -191,7 +191,8 @@ nav {
     border-radius: 4px;
     cursor: pointer;
     font-size: 18px;
-    width: 100%;
+    width: 90%;
+    margin-left: 20px;
     height: 44px;
     margin-bottom: 40px;
     
@@ -243,9 +244,22 @@ ul {
     color: #4c4c4c;
     font-size: 17px;
 }
-.info{
+.info {
+    display: block;
     font-size: 15px;
+    text-align: left;
+    margin-left: 20px;
 }
+.capcha {
+    background-color: #eceef1;
+    border-top: 2px solid lightgrey;
+    font-size: 12px;
+    font-style: italic;
+    color: #757575;
+    
+}
+    
+
 .footer-row1 {
     margin: 0px -3px 0px 5px;
     padding: 0px 0px 0px 5px;
@@ -260,7 +274,7 @@ section {
     height: 85%;
     display: flex;
     justify-content: center;
-    background-color: palevioletred;
+ /*   background-color: palevioletred; */
 
 }
 
@@ -270,7 +284,7 @@ section {
     text-align: left;
     justify-content: center;
     border: px solid green;
-    background-color: rgb(222, 232, 235);
+  /*  background-color: rgb(222, 232, 235); */
     color: #505050;
     margin: 20px 280px 20px 280px;
     height: 80%;
@@ -278,25 +292,36 @@ section {
 }
 
 footer {
-    height: 10%;
-    display: flex;
+    
+    display: block;
     justify-content: center;
-    background-color: rgb(24, 218, 18);
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.5;
     color: #505050;
+    width: 90%;
+    height: 10%;
+    margin: 0 auto;
+    padding: 20px 0;
+    
+    
+
 }
 
-/*
+
 body {
-    background: black; 
+        background: #eceef1;
     
 }
-*/
+
 .container {
+    border: 2px solid lightgray;
     width: 50%;
-    margin: 0 auto;
     text-align: center;
-    background-color: aquamarine;
-    /*  height: 20em; */
+    background-color: white;
+    margin: -13px auto;
+    border-radius: 3px;
+    
 }
 
 .form {
@@ -314,9 +339,11 @@ input,
 textarea {
     display: block;
     margin: 0 auto;
-    border-radius: 1px;
+    border-radius: 2px;
     text-align: center;
     margin-bottom: 1em;
+    width: 90%;
+    height: 28px;
 
 }
 
@@ -324,6 +351,12 @@ textarea {
     justify-content: center;
     display: flex;
     color: #4c4c4c;
+}
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-style: italic;
 }
 
 a {
