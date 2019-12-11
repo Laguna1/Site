@@ -171,16 +171,35 @@ nav {
     margin-right: -44px;
 }
 
-.sign_in,
-.submit {
-    border: 1px solid #ccc;
+.sign_in
+ {
+    border: 1px solid #0077c5;
+    background: #0077c5;
     color: white;
+    border-radius: 4px;
     cursor: pointer;
     font-weight: normal;
     font-size: 1em;
     margin-top: -1px;
-    border-radius: 4px;
+    
   /*  background-color: blue; */
+}
+.submit1 {
+    border: 1px solid #0077c5;
+    background: #0077c5;
+    
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    height: 44px;
+    margin-bottom: 40px;
+    
+}
+.submit-text {
+    color: white;
+    font-weight: normal;
+    font-size: 1em;
 }
 
 div.logo {
@@ -223,6 +242,9 @@ ul {
 .text {
     color: #4c4c4c;
     font-size: 17px;
+}
+.info{
+    font-size: 15px;
 }
 .footer-row1 {
     margin: 0px -3px 0px 5px;
