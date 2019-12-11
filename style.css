@@ -189,9 +189,7 @@ nav {
     background: #0077c5;
     
     border-radius: 4px;
-<<<<<<< HEAD
     /*background-color: blue;*/
-=======
     cursor: pointer;
     font-size: 18px;
     width: 90%;
@@ -204,7 +202,6 @@ nav {
     color: white;
     font-weight: normal;
     font-size: 1em;
->>>>>>> 013228081fd6b3dc401910d12ea0435f0388bfcd
 }
 
 div.logo {
