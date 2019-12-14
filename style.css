@@ -89,10 +89,11 @@ div.learn-more {
   font-size: 15px;
 }
 
-ul {
+.footer-links {
   flex-direction: row;
   display: flex;
-  padding: 25px 5px 20px 5px;
+  padding: 25px 5px 0px 5px;
+  list-style: none;
 }
 
 .top_icons {
@@ -109,6 +110,10 @@ ul {
   font-size: 15px;
   text-align: left;
 }
+info2 {
+  display: block;
+  text-align: left;
+}
 
 .italic {
   font-size: 12px;
@@ -120,8 +125,7 @@ ul {
 
 .capcha {
   background-color: #eceef1;
-  border-top: 2px solid lightgrey;
-  font-size: 12px;
+  font-size: 9px;
   font-style: italic;
   color: #757575;
   padding: 20px 0;
@@ -131,11 +135,10 @@ ul {
   margin: 0px -3px 0px 5px;
   padding: 0px 0px 0px 5px;
   text-decoration: none;
+  
 }
 
-li.footer-row1 {
-  color: #4c4c4c;
-}
+
 
 section {
   height: 85%;
@@ -158,9 +161,6 @@ div.main-section {
   height: 80%;
   margin: auto;
   overflow: visible;
-  -ms-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 748px;
   border: 1px;
@@ -181,17 +181,17 @@ footer {
 
 .container {
   margin: auto;
-  padding: 30px;
+  padding-top: 30px;
   border-radius: 3px;
   width: 50%;
   text-align: center;
   background-color: white;
   border: 2px solid lightgray;
-  */ text-align: center;
+  text-align: center;
 }
 
 .form {
-  /*  margin-top: 4em;   */
+  padding: 32px 29px 0px 28px;
   display: flex;
   flex-direction: column;
 }
@@ -203,10 +203,11 @@ label {
 
 input,
 textarea {
-  display: block;
+ /* display: block;
   margin: 0 auto;
+  
+  margin-bottom: 1em;  */
   border-radius: 2px;
-  margin-bottom: 1em;
   width: 100%;
   height: 28px;
 }
@@ -215,6 +216,11 @@ textarea {
   border: 1px solid darkgray;
 }
 
+info2 {
+  justify-content: flex-start;
+  display: flex;
+  margin-top: 10px;
+}
 .footer-row {
   justify-content: center;
   display: flex;
@@ -240,7 +246,13 @@ a {
 a.forgot {
   text-decoration: none;
 }
+a.capcha {
+  font-family: "Roboto", sans-serif;
+}
 
+.footer-row2 {
+  color: #4c4c4c;
+}
 form label {
   color: gray;
 }
