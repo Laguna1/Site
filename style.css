@@ -3,6 +3,9 @@ body {
   height: 100%;
   background: #eceef1;
 }
+ h2, h3 {
+  display: none;
+ }
 
 .header-wrapper {
   padding: 10px 30px 0px 30px;
