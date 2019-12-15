@@ -46,6 +46,11 @@ nav {
   margin-top: -1px;
 }
 
+ .padlock-closed-image {
+  width: 19px;
+  height: 23px;
+ }
+
 .submit1 {
   border: 1px solid #0077c5;
   background: #0077c5;
