@@ -147,6 +147,7 @@ div.learn-more {
   flex-direction: column;
   justify-content: center;
   font-style: italic;
+  padding-top: 20px;
 }
 
 a {
@@ -225,7 +226,7 @@ info2 {
   font-size: 9px;
   font-style: italic;
   color: #757575;
-  padding: 20px 0;
+  padding: 26px 0px 0px 0px;
 }
 
 /*  ============= footer ============  */
@@ -239,7 +240,7 @@ footer {
   width: 90%;
   height: 10%;
   margin: 0 auto;
-  padding: 20px 0;
+/*  padding: 20px 0; */
 }
 
 
